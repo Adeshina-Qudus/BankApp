@@ -6,7 +6,7 @@ import BankApp.Exception.InvalidPinException;
 public class Account {
     private String name;
     private int balance;
-    private final String pin ;
+    private final String pin;
 
     public Account(String name, String pin) {
         this.name = name;
