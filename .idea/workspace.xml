@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f89a38c-892a-4d12-911a-8a26e6481e21" name="Changes" comment="" />
+    <list default="true" id="3f89a38c-892a-4d12-911a-8a26e6481e21" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BankApp/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankApp/Exception/InvalidDepositException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankApp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankApp/Exception/InsufficientFundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Exception/InsufficientFundsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/AccountTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,37 +29,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2YYlxPzGKeqSC2yJ5px17TfVsQx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/USER/IdeaProjects/BankApp/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/USER/IdeaProjects/BankApp/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="BankApp.Exception" />
@@ -146,8 +154,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.AccountTest.deposit_OneThousand_And_Withdraw_5_000_With_Correct_Pin_Test" />
         <item itemvalue="JUnit.AccountTest.AccountCanBeDepositedIntoTest" />
+        <item itemvalue="JUnit.AccountTest.deposit_OneThousand_And_Withdraw_5_000_With_Correct_Pin_Test" />
         <item itemvalue="JUnit.AccountTest.deposit_OneThousand_And_Withdraw_500_With_Invalid_Pin_Test" />
         <item itemvalue="JUnit.AccountTest.deposit_OneThousand_And_Withdraw_5_000_Test" />
       </list>
@@ -161,7 +169,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700710641421</updated>
-      <workItem from="1700710642446" duration="6816000" />
+      <workItem from="1700710642446" duration="8292000" />
+      <workItem from="1700746018790" duration="207000" />
+      <workItem from="1700774993334" duration="4072000" />
+      <workItem from="1700849158132" duration="2066000" />
     </task>
     <servers />
   </component>
@@ -178,5 +189,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BankApp$AccountTest.ic" NAME="AccountTest Coverage Results" MODIFIED="1700726853721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.*</FILTER>
+    </SUITE>
   </component>
 </project>
