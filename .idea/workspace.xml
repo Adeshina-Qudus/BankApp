@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f89a38c-892a-4d12-911a-8a26e6481e21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BankApp/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BankApp/Exception/InvalidDepositException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/BankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankApp/BankMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BankApp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankApp/Exception/InsufficientFundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Exception/InsufficientFundsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankApp/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +70,8 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AccountTest.deposit_cannot_go_below_one">
+    <configuration name="AccountTest.deposit_cannot_go_below_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankApp" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +81,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.AccountTest" />
+      <option name="METHOD_NAME" value="deposit_cannot_go_below_one" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.BankTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.AccountCanBeDepositedIntoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.removeAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankApp" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +111,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.AccountTest" />
-      <option name="METHOD_NAME" value="AccountCanBeDepositedIntoTest" />
+      <option name="MAIN_CLASS_NAME" value="Test.BankTest" />
+      <option name="METHOD_NAME" value="removeAccountTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.deposit_OneThousand_And_Withdraw_500_With_Invalid_Pin_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.testWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankApp" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +127,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.AccountTest" />
-      <option name="METHOD_NAME" value="deposit_OneThousand_And_Withdraw_500_With_Invalid_Pin_Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.BankTest" />
+      <option name="METHOD_NAME" value="testWithdraw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.deposit_OneThousand_And_Withdraw_5_000_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.transferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankApp" />
       <extension name="coverage">
         <pattern>
@@ -128,24 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.AccountTest" />
-      <option name="METHOD_NAME" value="deposit_OneThousand_And_Withdraw_5_000_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.deposit_OneThousand_And_Withdraw_5_000_With_Correct_Pin_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BankApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.AccountTest" />
-      <option name="METHOD_NAME" value="deposit_OneThousand_And_Withdraw_5_000_With_Correct_Pin_Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.BankTest" />
+      <option name="METHOD_NAME" value="transferTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.AccountTest.AccountCanBeDepositedIntoTest" />
-        <item itemvalue="JUnit.AccountTest.deposit_OneThousand_And_Withdraw_5_000_With_Correct_Pin_Test" />
-        <item itemvalue="JUnit.AccountTest.deposit_OneThousand_And_Withdraw_500_With_Invalid_Pin_Test" />
-        <item itemvalue="JUnit.AccountTest.deposit_OneThousand_And_Withdraw_5_000_Test" />
+        <item itemvalue="JUnit.BankTest" />
+        <item itemvalue="JUnit.AccountTest.deposit_cannot_go_below_one" />
+        <item itemvalue="JUnit.BankTest.removeAccountTest" />
+        <item itemvalue="JUnit.BankTest.transferTest" />
+        <item itemvalue="JUnit.BankTest.testWithdraw" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +171,20 @@
       <workItem from="1700710642446" duration="8292000" />
       <workItem from="1700746018790" duration="207000" />
       <workItem from="1700774993334" duration="4072000" />
-      <workItem from="1700849158132" duration="2066000" />
+      <workItem from="1700849158132" duration="3680000" />
+      <workItem from="1700932135107" duration="1161000" />
+      <workItem from="1700949780853" duration="12003000" />
+      <workItem from="1700984351842" duration="73000" />
+      <workItem from="1700984764834" duration="13000" />
+      <workItem from="1700985607678" duration="8000" />
+      <workItem from="1700987040773" duration="206000" />
+      <workItem from="1700996730186" duration="652000" />
+      <workItem from="1700997795605" duration="2903000" />
+      <workItem from="1701002874852" duration="150000" />
+      <workItem from="1701003527509" duration="1410000" />
+      <workItem from="1701013889331" duration="69000" />
+      <workItem from="1701014099623" duration="30000" />
+      <workItem from="1701014557097" duration="22000" />
     </task>
     <servers />
   </component>
@@ -187,11 +199,29 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BankApp/Bank.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BankApp/Bank.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BankApp/Bank.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BankApp$AccountTest.ic" NAME="AccountTest Coverage Results" MODIFIED="1700726853721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BankApp$BankTest_transferTest.ic" NAME="BankTest.transferTest Coverage Results" MODIFIED="1700960727524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Test.*</FILTER>
     </SUITE>
   </component>

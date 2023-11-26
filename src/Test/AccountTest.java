@@ -14,7 +14,7 @@ class AccountTest {
     private Account account;
     @BeforeEach
     public void beforeEachOfTheTestRunThis(){
-        account = new Account("Opay","2011");
+        account = new Account("Opay","2011",1);
     }
     @Test
     public void AccountCanBeDepositedIntoTest(){
