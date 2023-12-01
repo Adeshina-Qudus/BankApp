@@ -41,7 +41,6 @@ class BankTest {
         assertEquals(1000,bank.checkBalance(1,"1234"));
         assertEquals(2000,bank.checkBalance(2,"2020"));
     }
-
     @Test
     public void removeAccountTest(){
         Bank bank = new Bank();
@@ -49,4 +48,5 @@ class BankTest {
         bank.removeAccount(1,"1234");
         assertEquals(0,bank.getAccountNumberCreated());
     }
+
 }

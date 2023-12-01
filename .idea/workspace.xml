@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f89a38c-892a-4d12-911a-8a26e6481e21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BankApp/BankMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankApp/BankFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankApp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankApp/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankApp/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankApp/BankMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,20 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.deposit_cannot_go_below_one">
+  <component name="RunManager" selected="Application.BankMain">
+    <configuration name="BankMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankApp.BankMain" />
+      <module name="BankApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountTest.deposit_cannot_go_below_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankApp" />
       <extension name="coverage">
@@ -118,22 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest.testWithdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BankApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.BankTest" />
-      <option name="METHOD_NAME" value="testWithdraw" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BankTest.transferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankApp" />
       <extension name="coverage">
@@ -153,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BankTest" />
+        <item itemvalue="Application.BankMain" />
         <item itemvalue="JUnit.AccountTest.deposit_cannot_go_below_one" />
         <item itemvalue="JUnit.BankTest.removeAccountTest" />
         <item itemvalue="JUnit.BankTest.transferTest" />
-        <item itemvalue="JUnit.BankTest.testWithdraw" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +180,17 @@
       <workItem from="1701013889331" duration="69000" />
       <workItem from="1701014099623" duration="30000" />
       <workItem from="1701014557097" duration="22000" />
+      <workItem from="1701023404213" duration="1357000" />
+      <workItem from="1701052928726" duration="20000" />
+      <workItem from="1701053359575" duration="12000" />
+      <workItem from="1701054516035" duration="19000" />
+      <workItem from="1701054707159" duration="31000" />
+      <workItem from="1701057076165" duration="18000" />
+      <workItem from="1701157647566" duration="695000" />
+      <workItem from="1701348007146" duration="607000" />
+      <workItem from="1701348926048" duration="1531000" />
+      <workItem from="1701534794555" duration="698000" />
+      <workItem from="1701549483356" duration="60000" />
     </task>
     <servers />
   </component>
